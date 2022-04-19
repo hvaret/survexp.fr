@@ -1,0 +1,8 @@
+CHANGES IN VERSION 1.1
+----------------------
+ 	o French death rates are now available from 1977 to 2019
+ 	o Improved the R code to fit the CRAN requirements
+
+CHANGES IN VERSION 1.0
+----------------------
+ 	o First version of survexp.fr
