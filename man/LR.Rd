@@ -1,0 +1,35 @@
+\name{LR}
+\alias{LR}
+\title{Log-Rank test between an observed and an expected survival curve}
+\description{Log-Rank test between an observed and an expected survival curve}
+
+\usage{
+LR(futime, status, age, sex, entry_date, ratetable = survexp.fr)
+}
+
+\arguments{
+  \item{futime}{follow-up time of the subjects in days}
+  \item{status}{0 if censored or 1 if dead at \code{futime}}
+  \item{age}{age in days}
+  \item{sex}{\code{"male"} or \code{"female"}}
+  \item{entry_date}{entry date in the study}
+  \item{ratetable}{a table of event rates, such as \code{survexp.fr} or \code{survexp.us}}
+}
+
+\details{
+The Log-Rank is calculated as:
+\deqn{LR = (O-E)^2/E}
+where \eqn{O} is the observed number of deaths and \eqn{E} is the expected number based on the patients' characteristics (sex, age and entry date in the study). 
+It follows a Khi-2 distribution with one degree of freedom, which allows to compute its p-value.
+}
+
+\value{A list containing the observed number of deaths, the expected number of deaths, the Log-Rank statistic and its p-value}
+
+\references{R. Peto and J. Peto, Asymptotically Efficient Rank Invariant Test Procedures, Journal of the Royal Statistical Society, 1972}
+
+\author{Hugo Varet}
+
+\examples{
+attach(data.example)
+LR(futime, status, age, sex, entry_date)
+}
