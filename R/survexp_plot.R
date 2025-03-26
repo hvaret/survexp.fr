@@ -25,8 +25,8 @@
 #' @param lty.rel line type of the relative survival curve
 #' @param times times to draw the confidence intervals of the relative survival
 #' @param alpha determines the confidence level (1-\code{alpha}) of the confidence intervals for the relative survival
-#' @param xscale see the \code{xscale} argument in \code{\link{plot.survfit}}
-#' @param \dots other arguments to be passed in \code{\link{plot.survfit}}
+#' @param xscale see the \code{xscale} argument in \code{\link[survival]{plot.survfit}}
+#' @param \dots other arguments to be passed in \code{\link[survival]{plot.survfit}}
 #' @return A matrix containing the values of relative survivals and their confidence intervals for each time of \code{times}
 #' @author Hugo Varet
 #' @details This function displays the observed and expected survivals, and the relative survival which is defined as:

@@ -1,13 +1,17 @@
 Package: survexp.fr
 Type: Package
 Title: Relative Survival, AER and SMR Based on French Death Rates
-Version: 1.1
-Date: 2022-04-19
-Author: Jean-Philippe Jais and Hugo Varet
+Version: 1.2
+Date: 2025-03-26
+Authors@R: c(
+    person(given = "Hugo", family = "Varet", role = c("aut", "cre"), email = "varethugo@gmail.com"),
+    person(given = "Jean-Philippe", family = "Jais", role = c("aut"))
+  )
 Maintainer: Hugo Varet <varethugo@gmail.com>
 Depends: R (>= 3.5.0), survival
 Imports: WriteXLS, stats, graphics
+Encoding: UTF-8
 LazyData: Yes
 Description: It computes Relative survival, AER and SMR based on French death rates.
 License: GPL (>=2)
-RoxygenNote: 7.1.2
+RoxygenNote: 7.3.2

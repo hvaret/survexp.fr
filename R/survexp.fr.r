@@ -3,9 +3,9 @@
 #' French data for the expected survival and person years functions
 #'
 #' @name survexp.fr
-#' @details Death rates are available from 1977 to 2019 for males and females aged from 0 to 99
-#' @source \url{https://www.insee.fr/fr/statistiques/fichier/5390366/fm_t68.xlsx}
-#' @references Institut National de la Statistique et des Etudes Economiques
+#' @details Death rates are available from 1977 to 2022 for males and females aged from 0 to 99
+#' @source \url{https://www.ined.fr/fichier/s_rubrique/193/fr_t68_2022.fr.xlsx}
+#' @references Institut national d'études démographiques
 #' @docType data
 #' @keywords data
 NULL
