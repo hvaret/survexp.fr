@@ -3,17 +3,18 @@
 \docType{data}
 \name{survexp.fr}
 \alias{survexp.fr}
-\title{French data for the expected survival and person years functions}
+\title{Metropolitan France three-year data for the expected survival and person years functions}
 \source{
-\url{https://www.ined.fr/fichier/s_rubrique/193/fr_t68_2022.fr.xlsx}
+Table 7 from \url{https://www.insee.fr/fr/statistiques/8999019?sommaire=8999231}: \url{https://www.insee.fr/fr/statistiques/fichier/8999019/7_FM_Table_mortalite_triennale.xlsx}
 }
 \description{
-French data for the expected survival and person years functions
+French data for the expected survival and person years functions.
+Mortality table based on three-year data, Metropolitan France.
 }
 \details{
-Death rates are available from 1977 to 2022 for males and females aged from 0 to 99
+Death rates are available from 1977 to 2025 for males and females aged from 0 to 99, and are based on three-year data for Metropolitan France (same as `survexp.frt` object)
 }
 \references{
-Institut national d'études démographiques
+Institut national de la statistique et des études économiques
 }
 \keyword{data}

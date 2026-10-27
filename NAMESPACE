@@ -2,7 +2,6 @@
 
 exportPattern("^[a-zA-Z]")
 import(survival)
-importFrom(WriteXLS,WriteXLS)
 importFrom(graphics,abline)
 importFrom(graphics,arrows)
 importFrom(graphics,axis)
